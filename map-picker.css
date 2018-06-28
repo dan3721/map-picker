@@ -1,0 +1,14 @@
+a:link {color: blue}
+a:visited {color: blue}
+a:hover {color: blue}
+a:active {color: gold}
+
+.gild
+{
+border-style: solid;
+border-color: gold
+}
+
+.odd {background-color: skyblue}
+.even {background-color: white}
+

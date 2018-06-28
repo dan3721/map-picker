@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title></title>
+  <link rel="stylesheet" type="text/css" href="map-picker.css" />
+  <script src="map-picker.js"></script>
+</head>
+<body bgcolor="white" onload="javascript:init()">
+<form name="search" action="javascript:search()">
+<table border="0">
+  <tr><td><b>Search:</b></td></tr>
+  <tr><td><input class="gild" name="query" type="text" size="23"/></td></tr>
+  <tr><td> 
+    <select name="qmod">
+      <option value="ALL" selected >-- All MODs --</option>
+      <option value="threewave">Threewave</option>
+    </select>
+  </td></tr>
+  <tr><td> 
+    <select name="qtype">
+      <option value="ALL" selected >-- All Game Types--</option>
+      <option value="FFA">FFA</option>
+      <option value="CTF">CTF</option>
+      <option value="CCTF">CCTF</option>
+      <option value="1FCTF">1FCTF</option>
+      <option value="CS">CS</option>
+    </select>
+  </td></tr>
+</table>
+<br/>
+<table>  
+  <tr><td nowrap><input type="reset" value="Reset" onclick="javascript:resetContent()"/></td><td width="100%" align="right"><input type="submit" value="Search"/></td></tr>
+</table>
+</form>
+</body>
+</html>
